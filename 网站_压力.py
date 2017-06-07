@@ -4,7 +4,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import xlrd
-
+#默认打开chrome 浏览器
 chrome_driver = os.path.abspath(r"C:\Program Files (x86)\Google\Chrome\Application\chromedriver.exe");
 os.environ["webdriver.chrome.driver"] = chrome_driver;
 driver = webdriver.Chrome(chrome_driver);
